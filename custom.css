@@ -1,8 +1,43 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+header {
+    background:#1F2937;
+    color:#fff;
+    width:100%;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+}
+header a {
+color: #fff !important;
+text-decoration: none;
+}
+.header-logo {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.logo-block {
+display:flex;
+}
+.links-block {
+    display: flex;
+}
+ul.header-links {
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+    list-style:none;
+}
+.container {
+    width:100%;
+    max-width:900px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 body {
-    margin:0;
+margin:0;
 }
 
 
