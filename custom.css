@@ -3,13 +3,12 @@
 }
 header {
     background:#1F2937;
-    color:#fff;
+    color:#F9FAF8;
     width:100%;
     padding-block-start: 1em;
     padding-block-end: 1em;
 }
 header a {
-color: #fff !important;
 text-decoration: none;
 }
 .header-logo {
@@ -28,6 +27,9 @@ ul.header-links {
     gap:1.2em;
     list-style:none;
 }
+ul.header-links a {
+    color: #E5E7EB !important;
+}
 .container {
     width:100%;
     max-width:900px;
@@ -38,6 +40,22 @@ ul.header-links {
 }
 body {
 margin:0;
+}
+
+.first {
+    background:#1F2937;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+}
+.second {
+    background:#fff;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+}
+.third {
+    background:#E5E7EB;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
 }
 
 
