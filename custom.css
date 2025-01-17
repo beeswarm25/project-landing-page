@@ -1,5 +1,9 @@
-
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin:0;
+}
 
 
 
@@ -19,4 +23,7 @@ footer {
     background:#1F2937;
     color:#fff;
     width:100%;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+    text-align: center;
 }
