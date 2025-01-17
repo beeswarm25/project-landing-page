@@ -32,11 +32,12 @@ ul.header-links a {
 }
 .container {
     width:100%;
-    max-width:900px;
+    max-width:960px;
     margin:0 auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    gap:2.4em;
 }
 body {
 margin:0;
@@ -45,7 +46,9 @@ margin:0;
 .first {
     background:#1F2937;
     padding-block-start: 1em;
-    padding-block-end: 1em;
+    padding-block-end: 8em;
+    display: flex;
+    align-items: center;
 }
 .second {
     background:#fff;
@@ -58,25 +61,45 @@ margin:0;
     padding-block-end: 1em;
 }
 blockquote {
+    max-width: 800px;
     font-size: 2.1em;
+    font-weight: 200;
+    font-style: italic;
+}
+cite {
+    font-weight: 700;
+    font-size: .7em;
+    font-style: normal;
+    display: block;
+    text-align: right;
+    margin-block-start: 1em;
 }
 .hero-text {
-
+flex:1;
 }
-
 .hero-text h1 {
 font-size:3em;
 font-weight: 900;
 color:#F9FAF8;
+line-height: 1em;
 }
 .hero-text p {
 font-size:1.1em;
 color:#E5E7EB;
+margin-block-start: -1em;
+margin-block-end: 1.8em;
 }
 .blue-button {
      background: #3882F6;
      color:#fff;
+     padding: 1em;
+     text-decoration: none;
+     border-radius: .4em;
 }
+.hero-image {
+    flex:1;
+    padding-block-start: 4em;
+    }
 
 
 
