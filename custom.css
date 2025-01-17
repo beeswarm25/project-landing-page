@@ -92,9 +92,10 @@ margin-block-end: 1.8em;
 .blue-button {
      background: #3882F6;
      color:#fff;
-     padding: 1em;
+     padding: .6em 1.8em;
      text-decoration: none;
      border-radius: .4em;
+     font-weight: 700;
 }
 .hero-image {
     flex:1;
